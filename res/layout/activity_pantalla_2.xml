@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/bFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/bIrPantalla1"
+        android:text="@string/Fecha" />
+
+    <Button
+        android:id="@+id/bTamper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bFecha"
+        android:layout_toLeftOf="@+id/bIrPantalla1"
+        android:text="@string/Tamper" />
+
+    <Button
+        android:id="@+id/bBateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/bTamper"
+        android:layout_below="@+id/bTamper"
+        android:text="@string/Bateria" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Footer" />
+
+    <Button
+        android:id="@+id/bIrPantalla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Pantalla1" />
+
+    <TextView
+        android:id="@+id/tFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bFecha"
+        android:layout_alignBottom="@+id/bFecha"
+        android:layout_alignLeft="@+id/bIrPantalla1"
+        android:layout_marginLeft="14dp"
+        android:text="@string/Vacio" />
+
+
+    <TextView
+        android:id="@+id/tTamper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bTamper"
+        android:layout_alignBottom="@+id/bTamper"
+        android:layout_alignLeft="@+id/tFecha"
+        android:text="@string/Vacio" />
+
+    <TextView
+        android:id="@+id/tBateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bBateria"
+        android:layout_alignBottom="@+id/bBateria"
+        android:layout_alignLeft="@+id/tTamper"
+        android:text="@string/Vacio" />
+
+</RelativeLayout>

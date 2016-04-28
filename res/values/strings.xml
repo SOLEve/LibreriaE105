@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APP_PIN	</string>
+    <string name="Fecha">	Fecha	</string>
+    <string name="Msr">		MSR		</string>
+    <string name="Pin">		PIN		</string>
+    <string name="Tamper">	Tamper	</string>
+    <string name="Vacio">	****	</string>
+    <string name="Bateria">	Bateria	</string>
+    <string name="Emv">		E0B		</string>
+    <string name="Emv2">	E03		</string>
+    <string name="Serial">	Serial	</string>
+    <string name="Abort">	Abort	</string>
+    <string name="EndEmv">	End Emv	</string>
+    <string name="Auth">	Autenticacion	</string>
+    <string name="EmvConfTerm">	ConfTerm</string>
+    <string name="EmvConfAid">	ConfAid</string>
+    <string name="EmvConfCAKey">ConfCAKey</string>
+    <string name="Footer">	Linkit Ingenieria y Sistemas</string>
+    <string name="title_activity_pantalla_2">Pantalla_2</string>
+    <string name="Pantalla1">Pantalla 1</string>
+    <string name="Pantalla2">Pantalla 2</string>
+
+</resources>
